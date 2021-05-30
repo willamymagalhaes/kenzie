@@ -8,9 +8,9 @@ function calculandoIMC(){
   let altura = document.getElementById("altura").value/100;
   let resultado = document.getElementById("resultado");
   
-  let imc = (peso / (altura*altura)).toFixed(2);
+  let imc = (peso / (altura * altura)).toFixed(2);
   
-  resultado.textContent = 'Seu IMC é $ { imc }';
+  resultado.textContent = `Seu IMC é $ { imc }`;
 
 }
 
