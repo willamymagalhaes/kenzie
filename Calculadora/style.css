@@ -11,7 +11,7 @@ body{
   }
   
   .botao-calcular{
-    font-align: center;
+    text-align: center;
     font-size: 18px;
     width:100%;
     background-color: #1b2845;
